@@ -7,6 +7,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base:'/vendor_managment_frontend/'
   server: {
     port: 5173,
   },
